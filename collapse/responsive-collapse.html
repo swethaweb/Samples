@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+
+	<style>
+    body{
+        margin-top:15px;
+        margin-left:0px;
+    }
+   .header {
+    text-align: center;
+    background-color: #00FF7F;
+    color: #F08080;
+    padding:15px;
+    font-size:30px;
+}
+ *{
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+
+}
+li{
+    padding:1px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: white;
+}
+li:hover{
+
+background-color:#1E90FF;
+
+
+
+}
+.nav > li > a:focus, 
+.nav > li > a:hover { background-color: #1E90FF!important; }
+   
+}
+
+
+/*.nav{
+    overflow:hidden;
+     display: block;
+  float: left; 
+  padding: 25px 10px;
+}*/
+
+
+
+sub{
+    color:black;
+    font-size:18px;
+
+
+}
+div.img{
+
+    background:url("flight.jpg");
+    background-size:100% 100%;
+    overflow-y: none;
+    
+    background-repeat: no-repeat;
+    margin-top:15px;
+
+    margin-bottom: 5px;
+
+    
+   
+}
+p{
+    font-size: 14px;
+}
+@media only screen and (min-width:320px){
+	[class*="col-"] {
+        width:100%;
+    
+}
+	@media only screen and (min-width:780px){
+        .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+	}
+	@media only screen and (min-width:600px){
+        .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+ 
+	}
+	</style>
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="header">
+		<h1 class="font">Aviation
+        <sub><small>Overseas!</small></sub></h1>
+	</div>
+    
+	<div class="row">
+		<div class="col-3 col-m-3 menu">
+        
+		<ul class="nav">
+		<li > <a   data-toggle="collapse" href="#demo">Frontier</a>
+        <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+
+		<li><a   data-toggle="collapse" href="#demo1">Jet Blue</a>
+        <div id="demo1" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+		<li><a   data-toggle="collapse" href="#demo2">Kayak</a>
+        <div id="demo2" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+		<li><a   data-toggle="collapse" href="#demo3">South West</a>
+        <div id="demo3" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo4">Orbit</a>
+        <div id="demo4" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo5">United</a>
+        <div id="demo5" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo6">Expedia</a>
+        <div id="demo6" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo7">Delta</a>
+        <div id="demo7" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo8">Air India</a>
+        <div id="demo8" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo9">Emirates</a>
+        <div id="demo9" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+        <li><a   data-toggle="collapse" href="#demo10">Boeing</a>
+        <div id="demo10" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div></li>
+		</ul> 
+	    </div>
+	    <div class="col-6 col-m-9 img">
+            <h1>Flight</h1>
+            <p>Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges! </p>
+            <p>Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges! </p>
+	    	<p>Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges! </p>
+            <p>Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges! </p>
+            <p>Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges!Fly over mountains, valleys, waterfalls, canyons, and caverns. Land your plane on aircraft carriers, airfields, and airports. Soar over the ranges, or dodge trees on the deck. Unlock new airfields, aircraft, missions and challenges! </p>
+
+	    </div>
+        </div>
+
+	</body>
+	</html>
