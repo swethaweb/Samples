@@ -1,0 +1,22 @@
+ body{
+     	
+     	margin-top:20px;
+     	margin-left: 20px;
+     	margin-right: 20px;
+     }
+     table tr:nth-child(even){
+
+     	border:0;
+     	padding:0px;
+     	background-color: ;
+
+     	
+
+     }
+
+
+    
+
+     .center{
+     	text-align:center;
+     }

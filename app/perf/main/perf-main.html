@@ -1,0 +1,53 @@
+<div ng-init="vm.init()" class="container-fluid">
+
+	<div class="jumbotron jumbo">
+		<h2 class="center">Performance of Individuals</h2>
+	</div>
+	
+		
+	
+<table class="table table-striped">
+	<thead >
+      <tr>
+        <th>Header1</th>
+        <th>Header2</th>
+        <th>Header3</th>
+        <th>Header4</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    	<tr ng-repeat="data in vm.details">
+    		<td>{{data.key1}}</td>
+    		<td>{{data.key2}}</td>
+    		<td>{{data.key3}}</td>
+    		<td>{{data.key4}}</td>
+            <td>
+
+            <button class="btn btn-danger" ng-click="vm.removeItem($index)">Remove</button>
+
+            </td>
+        </tr>
+        <tr>
+    		<td><input ng-model="vm.H1"></td>
+            <td><input ng-model="vm.H2"></td>
+            <td><input ng-model="vm.H3"></td>
+            <td><input ng-model="vm.H4"></td>
+       </tr>
+    	
+    </tbody>
+
+
+
+	 
+
+</table>
+<button class="btn btn-primary" ng-click="vm.addDetails()">Add Details</button>
+
+
+	
+<!-- {{details}} -->
+<!-- {{vm.test.p1}} -->
+
+</div>
